@@ -1,0 +1,39 @@
+.footer--container {
+    background-color: #f5fcff;
+    color: #333;
+    padding: 100px 0 20px 20px; 
+    text-align: center;
+  }
+  
+  .footer--link--container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer--social--icon ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer--social--icon ul li {
+    display: inline;
+    margin: 50px 20px; 
+  }
+  
+  .footer--social--icon ul li a svg {
+    width: 36px; 
+    height: 36px; 
+    transition: all ease-in-out 0.2s;
+  }
+  
+  .footer--social--icon ul li a svg:hover {
+    transform: scale(0.8);
+  }
+  
+  .copyright {
+    text-align: center;
+    margin: 50px 20px 0 0;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  

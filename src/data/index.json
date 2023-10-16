@@ -1,0 +1,135 @@
+{
+    "expertise": [
+      {
+        "id": "1",
+        "src": "https://cdn-icons-png.flaticon.com/128/1055/1055666.png",
+        "title": "Front-End Development",
+        "description": "I craft captivating user interfaces, using HTML, CSS, and JavaScript, to enhance user experiences and bring digital designs to life."
+      },
+      {
+        "id": "2",
+        "src": "https://cdn-icons-png.flaticon.com/128/2821/2821610.png",
+        "title": "Back-End Development",
+        "description": "I architect the server-side of web applications, ensuring data integrity and smooth functionality, with expertise in server technologies and databases."
+      },
+      {
+        "id": "3",
+        "src": "https://cdn-icons-png.flaticon.com/128/5979/5979577.png",
+        "title": "Full Stack Development",
+        "description": "I'm a versatile developer skilled in both front-end and back-end technologies, proficiently crafting end-to-end web solutions for a cohesive user experience."
+      },
+      {
+        "id": "4",
+        "src": "https://cdn-icons-png.flaticon.com/128/919/919851.png",
+        "title": "React Development",
+        "description": "I specialize in building dynamic and responsive web applications with React, harnessing its component-based architecture for seamless user interaction."
+      }
+    ],
+    "projects": [
+      {
+        "id": "1",
+        "src": "./img/Screenshot 2023-09-28 200933.png",
+        "title": "ToDo App",
+        "description": "A simple web application that allows users to create and manage a list of tasks",
+        "link": "https://github.com/harshy1620/ToDoApp"
+      },
+      {
+        "id": "2",
+        "src": "./img/Screenshot 2023-09-28 200639.png",
+        "title": "Habit Tracker App",
+        "description": "A web-based application,helps users track their daily habits and monitor their progress over time.",
+        "link": "https://github.com/harshy1620/HabitTrackerNode"
+      },
+      {
+        "id": "3",
+        "src": "./img/Screenshot 2023-09-28 201145.png",
+        "title": "E-learning App",
+        "description": "A web-based learning platform that focuses on teaching ReactJS, SQL, Azure, and Node.js by providing interactive lessons.",
+        "link": "https://github.com/harshy1620/E-learning_app_React"
+      }
+    ],
+    "skills": [
+      {
+
+        "id": "1",
+        "count": "5",
+        "src": "./img/html.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "HTML"
+        
+      },
+      {
+        "id": "2",
+        "count": "5",
+        "src": "./img/css.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "CSS"
+        
+      },
+      {
+        "id": "3",
+        "count": "5",
+        "src": "./img/javascript.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "JavaScript"
+        
+      },
+      {
+        "id": "4",
+        "count": "5",
+        "src": "./img/jquery.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "Jquery"
+        
+      },
+      {
+        "id": "5",
+        "count": "5",
+        "src": "./img/bootstrap.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "Bootstrap"
+        
+      },
+      {
+        "id": "6",
+        "count": "5",
+        "src": "./img/node.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "Node"
+        
+      },
+      {
+        "id": "7",
+        "count": "5",
+        "src": "./img/express.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "Express"
+        
+      },
+      {
+        "id": "8",
+        "count": "5",
+        "src": "./img/mongodb.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "MongoDb"
+        
+      },
+      {
+        "id": "9",
+        "count": "5",
+        "src": "./img/react.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "React"
+        
+      },
+      {
+        "id": "10",
+        "count": "5",
+        "src": "./img/git.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "title": "git/github"
+        
+      }
+    ]
+  }
+  

@@ -1,0 +1,60 @@
+.Expertise--section {
+  min-height: 100vh;
+  padding: 80px 0 10px 0;
+  background-color: #fff;
+}
+
+.portfolio--container {
+  text-align: center;
+}
+
+.portfolio--container h2{
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10vh;
+}
+
+.Expertise--section--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Expertise--section--card {
+  padding: 20px 20px 40px 20px;
+  border-radius: 10px;
+  width: 250px;
+  background-color: #f5fcff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: all 0.3s ease;
+}
+
+.Expertise--section--card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.Expertise--section--img img {
+  width: 20%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.Expertise--section--title {
+  line-height: 40px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.Expertise--section--description {
+  line-height: 35px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .Expertise--section--card {
+    width:65%;
+  }
+}

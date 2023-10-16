@@ -1,0 +1,113 @@
+.app__navbar{
+    box-sizing: border-box;
+    height: 10vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15rem 10px 5rem;
+    z-index: 1;
+    position:fixed;
+     width: 100%;
+    background-color: #f5fcff;
+    box-shadow:0px 0px 50px 0 rgba(0,0,0,0.1);  
+}
+
+.app__navbar-logo img{
+    height:45px;
+    width: 45px;
+    border: 2px solid  #5e3bee;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.app__navbar-links{
+    width:40%;
+    display:flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content:space-evenly;
+    list-style: none;
+}
+
+.app__navbar-links li a{
+    margin:0 10px;
+    text-decoration:none;
+    color:black;
+    font-size:17px;
+}
+.app__navbar-links li a:hover{
+    color: #5e3bee;
+}
+
+.app__navbar-menu svg{
+    width: 35px;
+    height: 35px;
+    color: #5e3bee;
+}
+.app__navbar-menu div{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  padding: 1rem;
+  width: 85%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: repeat;
+  box-shadow: 0px 0px 20px rgba(168, 168, 168, 0.15);
+}
+
+.app__navbar-menu div svg{
+    width: 35px;
+    height: 35px;
+    color: #5e3bee;
+    margin: 0.5rem 1rem;
+}
+
+.app__navbar-menu div ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.app__navbar-menu div ul li a{
+    color: #898989;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.app__navbar-menu div ul li a:hover{
+    color:#5e3bee;
+    cursor: pointer;
+  }
+
+@media screen and (max-width:900px) {
+    .app__navbar{
+        padding:1rem;
+    }
+    .app__navbar-links{
+        display:none;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .app__navbar-menu{
+        display:none;
+    }
+}

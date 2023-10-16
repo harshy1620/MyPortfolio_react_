@@ -1,0 +1,55 @@
+.about--section {
+    padding: 80px 0 10px 0;
+    background-color: #f5fcff;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .section--title-about {
+    font-size: 2.5rem;
+    margin-bottom: 10vh;
+    color: #333;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about--section--img img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  .about--section--content--box {
+    padding:0 20px;
+    margin-left: 75px;
+    box-sizing: border-box;
+    width: 50%;
+    text-align:justify;
+  }
+  
+  .about--section-description {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom:8px;
+  }
+  
+  @media (max-width:960px) {
+    .about--section--content--box {
+        width: 80%;
+      margin: 0;
+      text-align: center;
+     
+    }
+  
+    .about--section--img img {
+      max-width: 60%;
+    }
+  }
+  
